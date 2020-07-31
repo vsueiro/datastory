@@ -1,0 +1,13 @@
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 90vw;
+  margin: 288px auto;
+}
+
+.grid-item {
+  width: 10%;
+  object-fit: contain;
+  align-self: flex-start;
+}
