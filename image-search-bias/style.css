@@ -1,13 +1,27 @@
+body {
+  padding: 96px 24px;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 96px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+}
+
 .grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 90vw;
-  margin: 288px auto;
+  margin: 48px auto 96px;
 }
 
 .grid-item {
   width: 10%;
-  object-fit: contain;
-  align-self: flex-start;
+  object-fit: fill;
+  /* align-self: flex-start; */
 }
